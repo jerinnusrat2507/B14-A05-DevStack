@@ -1,3 +1,5 @@
+import HeroIllustration from "./HeroIllustration";
+
 export default function Hero() {
   return (
     <section id="home" className="max-w-7xl mx-auto px-5 md:px-8 pt-14 md:pt-20 pb-16 grid md:grid-cols-2 gap-10 items-center">
@@ -28,11 +30,7 @@ export default function Hero() {
       </div>
 
       <div className="flex justify-center md:justify-end">
-        <img
-          src="https://api.iconify.design/fluent-emoji-flat:motherboard.svg"
-          alt="Development stack illustration"
-          className="w-64 sm:w-80 md:w-96 drop-shadow-2xl"
-        />
+        <HeroIllustration />
       </div>
     </section>
   );
