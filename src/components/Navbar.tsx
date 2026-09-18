@@ -22,7 +22,7 @@ export default function Navbar() {
         </button>
 
         {/* Brand logo (left on desktop, center on mobile) */}
-        <a href="#home" className="flex items-center gap-2 md:mr-auto">
+        <a href="#home" className="flex items-center gap-2">
           <span className="brand-gradient-bg text-white font-bold text-sm w-8 h-8 rounded-lg flex items-center justify-center">
             DS
           </span>
